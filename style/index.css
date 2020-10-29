@@ -57,6 +57,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: lightgrey;
 }
 
 
@@ -98,7 +99,6 @@ a:link {
     height: 40vh;
     display: flex;
     width: 100%;
-    margin-top: 5%;
     margin-bottom: 5%;
     justify-content: center;
 }
@@ -133,6 +133,7 @@ footer {
     height: 20vh;
     display: flex;
     justify-content: space-around;
+    margin-top: 5%;
 }
 
 footer div {
