@@ -90,7 +90,7 @@ a:hover {
     color: white;
     background-color: black;
     transition: transform 0.85s;
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
 a:link {
