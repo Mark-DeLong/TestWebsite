@@ -1,57 +1,9 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 100%;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 html {
 	font-size: 62.5%;
 }
 
 body {
+	border: 3px solid black;
 	font-family: 'Noto Serif', serif;
   	font-size:1.6rem;
   	line-height:1.5;
@@ -67,84 +19,46 @@ section {
 	width: 100%;
 }
 
-.button1, .button2, .button3, .button4, .button5, .button6 {
-	display: inline-block;
-	width: 20%;
-	text-align: center;
-	padding: 5% 0;
-	border-radius: 10px;
-	margin-left: 6.4%;
-	margin-right: 6.4%;
-	
-}
-
-.button1, .button4 {
-	background-color: pink;
-	
-}
-
-.button2, .button5 {
-	background-color: skyblue;
-	
-}
-
-.button3, .button6 {
-	background-color: yellow;
-	
+nav {
+	display: flex;
+	flex-direction: row;
+	height: 50px;
+	width: 50px;
+	color: white;
+	font-style: none;
+	background-color: #4f4f4f	
 }
 
 header {
-	display: inline-block;
-	height: 30%;
+	display: flex;
 
 }
 
 h1 {
-	width: 50%;
-	float: right;
-	text-align: center;
-	font-size: 3.2rem;
-	margin-top: 10%;
-	margin-bottom: 5%;
+	display: flex;
 }
 
 header p {
-	font-size: 1.6rem;
-	width: 50%;
-	text-align: center;
-	float: left;
+	display: flex;
+
 }
 
 header img{
-	float: left;
-	width: 30%;
-	border-radius: 200px;
-	margin: 10%;
+	display: flex;
+	height: 150px;
+	width: 150px;
+	
 }
 
 .about {
-	margin: 10%;
-	margin-top: 0;
-	margin-bottom: 0;
-	background-color: coral;
-	color: white;
-	width: 80%;
-	text-align: center;
-	padding: 2% 0;
+	display: flex;
+
 }
 
 .fire {
-	margin-top: 0;
-	margin-bottom: 0;
-	margin-left: 35%;
-	margin-right: 35%;
-	color: #4f4f4f;
-	display: inline-block;
-	width: 30%;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	padding: 2% 0;
+	
+	display: flex;
+	
 	
 }
 
@@ -153,25 +67,15 @@ header img{
 }
 
 .reservations {
-	margin-top: 0;
-	margin-bottom: 0;
-	margin-left: 35%;
-	margin-right: 35%;
-	color: #4f4f4f;
-	display: inline-block;
-	width: 30%;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	padding: 2% 0;
+	display: flex;
 
 }
 
 .reservations img {
-	width: 50%
+	display: flex;
 }
 
 footer img {
-	width: 100%;
-	margin: 0;
+	display: flex;
+	width: 100%
 }
