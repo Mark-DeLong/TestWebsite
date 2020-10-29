@@ -64,6 +64,7 @@ header {
 .name, .navigation, .intro, .blurb {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .name, .intro {
@@ -107,6 +108,7 @@ a:link {
 .portfolio {
     display: flex;
     justify-content: space-between;
+    padding: 1%;
 }
 
 .description {
@@ -114,6 +116,7 @@ a:link {
     align-self: center;
     width: 19%;
     margin: 3%;
+    font-size: 1.6rem;
 }
 
 .images {
@@ -122,6 +125,10 @@ a:link {
     flex-direction: row;
     width: 19%;
     transition: transform 0.2s;
+}
+
+.images img {
+    margin: 1px;
 }
 
 .images img:hover {
