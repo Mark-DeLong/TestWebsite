@@ -1,42 +1,52 @@
-<!-- Markup the content below with tags and attributes such that it can be styled in CSS-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Link your CSS stylesheet -->
-<link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
-  <nav>
-    <a class="button1" href="#">Button One</a>
-    <a class="button2" href="#">Button Two</a>
-    <a class="button3" href="#">Button Three</a>   
-  </nav>
-  <header>
+    <header>
+        <div class="name">
+            <h1>Mark DeLong</h1>
+        </div>
+        
     
-      <img src="assets/header_img.jpg" alt="">  
-      <h1>Heading</h1>
-      <p>Subtitle<br><br></p>
-      <p>Subtitle</p>
-  </header>
-  <section class=about>
-    <p>Blurb</p> 
-    <p>Blurb</p>
-  </section>    
-  <section class=fire>    
-      <img src="https://image.flaticon.com/icons/svg/2979/2979348.svg" alt="">
-      <p>Blurb</p>
-  </section>
-  <section class=reservations>    
-      <img src="https://image.flaticon.com/icons/svg/820/820374.svg" alt="">
-      <p>Blurb</p>
-  </section>  
-  <footer>
-      <img src="assets/footer_img.jpg" alt="">
-      <nav>
-        <a class="button4" href="#">Button Four</a>
-        <a class="button5" href="#">Button Five</a>
-        <a class="button6" href="#">Button Six</a>   
-      </nav>
-  </footer>   
+        <div class=navigation>
+            <a href="/index.html" class="button1">Home</a>
+            <a href="/about.html" class="button2">About</a>
+            <a href="/contact.html" class="button3">Contact</a>
+            <a href="/projects.html" class="button4">Projects</a>
+        </div>
+    
+        <div class="intro">
+            <h2>Welcome to my Portfolio</h2>
+        </div> 
+        <div class=blurb>
+            <p>Let me show you what I can do!</p>
+        </div>
+    </header>
+    <section class=bigImage>
+        <img src="/assets/1.jpg" alt="">
+    </section>
+    <section class="portfolio">
+        <div class="images">
+            <img src="/assets/2.jpg" alt="">
+            <img src="/assets/3.jpg" alt="">
+            <img src="/assets/4.jpg" alt="">
+            <img src="/assets/5.jpg" alt="">
+        </div>
+        <div class="description">
+            <div class="text">
+                <p>These are just stock images right now, but soon they will be different web designs!</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="navigation">
+            <a href="/contact.html" class="button5">Contact Me</a>
+        </div>
+    </footer>
 </body>
 </html>
