@@ -133,6 +133,10 @@ h2 {
 
 /*posts*/
 
-.post1 img {
+.posts img {
 	width: 50%;
+}
+
+.posts div {
+	margin-bottom: 5%;
 }
