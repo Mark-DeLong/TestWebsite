@@ -133,7 +133,7 @@ h2 {
 
 /*posts*/
 
-.posts img {
+.post1 img, .post2 img {
 	width: 50%;
 }
 
