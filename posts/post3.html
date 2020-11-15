@@ -20,14 +20,26 @@
     </header>
     <section class="post3">
         <div class="3">
-            <h2>Post One</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <h2>JavaScript Classes</h2>
+            <p>JavaScript has been kicking my ass lately, but in a good way. I have been learning to manipulate data. It’s still in the abstract phase now. However, I can confidently manipulate all sorts of data in arrays and objects, create classes and sub/pseudo classes.</p>
             <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <p>The key for me has been realizing that whenever you are referencing existing data, you aren’t copying the data into the new function. The computer is going back to that section of the code and running it there in that context.</p>
             <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            For example:
             <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <p>Class thisClass {</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;function thisThing(doThing) {</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;this.thing = doThing</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;}</p>
+            <p>}</p>
+            <br>
+            <p>Class newClass extends thisClass {</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;super.thisThing</p>
+            <p>}</p>
+            <br>
+            <p>The code “super.thisThing,” isn’t copying the function from the parent class to child class. It is actually going back and running the code within the parent class. This means that the code actually gets to use all the methods of the class too.</p>
+            <br>
+            <p>I’m not sure if I’m belaboring the obvious, but for me once I realized that was happening under the hood the flow of the language started to click.</p>
         </div>
     </section>
     <footer>
