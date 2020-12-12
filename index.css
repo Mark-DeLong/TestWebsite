@@ -45,13 +45,13 @@ table {
 	border-spacing: 0;
 }
 
-* {
+ * {
     max-width: 100%;
     font-size: 62.5%;
 	font-family: 'Noto Serif', serif;
 	color: white;
 	text-decoration: none;
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 }
 
 body {
@@ -60,10 +60,10 @@ body {
 	padding-left: 10%;
 	padding-right: 10%;
 	font-size: 1.6rem;
-	background-color: darkred;
-	/*background-image: url("/assets/1.jpg");
+	background-color: darkred; 
+	/* background-image: url("/assets/1.jpg"); */
   	background-repeat: no-repeat;
-  	background-attachment: fixed;*/
+  	background-attachment: fixed;
 }
 
 /*start navigation animation*/
@@ -139,4 +139,18 @@ h2 {
 
 .posts div {
 	margin-bottom: 5%;
+}
+
+/* comments */
+
+#display {
+	color: black;
+}
+textarea {
+	color: black;
+	width: 50%;
+	height: 20vh;
+}
+input {
+	width: 80%;
 }
